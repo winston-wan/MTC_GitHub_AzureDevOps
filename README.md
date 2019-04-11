@@ -1,6 +1,9 @@
 # Media-n-Entertainment_Workshop
 # OSS PaaS and DevOps
 
+## Note
+This repo is based on MCW repo https://github.com/Microsoft/MCW-OSS-DevOps and will be maintained with additional steps to include GitHub integration and for the M&E workshop
+
 Best For You Organics Company is one of the leading online health food suppliers in North America, serving customers in Canada, Mexico, and the United States. They launched their highly-successful e-commerce website, which sells subscriptions to their meal service, in 2016, and have been steadily increasing their subscriber-base since. Their service is tailored towards working professionals, who want convenient, reliable access to healthy meal choices, and pre-packaged recipes, without having to spend too much time preparing the meals.
 
 Their CIO is a big proponent of open-source software, and development of their web application was done using the MERN stack (MongoDB, Express.js, React.JS, Node.js). Their code is hosted in a private GitHub repository. They currently have a continuous integration workflow, triggered by each code check-in/commit in GitHub, using Jenkins.
