@@ -250,9 +250,9 @@ In this task, you will clone the starter application, creating a local copy on y
 
 1. On your Lab VM, open a browser, and navigate to your GitHub account (<https://github.com>).
 
-2. Within your GitHub account, navigate to the forked copy of the `MCW-OSS-PaaS-and-Devops` application page, select **Clone or download**, then select the **copy** link next to the web URL.
+2. Within your GitHub account, navigate to the forked copy of the `MTC_GitHub_AzureDevOps` application page, select **Clone or download**, then select the **copy** link next to the web URL.
 
-    ![The Clone or download button is selected on the forked copy of the MCW-OSS-PaaS-and-Devops application page, and the web URL is displayed below it.](media/github-clone.png "Select Clone or download")
+    ![The Clone or download button is selected on the forked copy of the MTC_GitHub_AzureDevOps application page, and the web URL is displayed below it.](media/github-clone.png "Select Clone or download")
 
 3. Open a new bash shell, and enter the following command:
 
@@ -279,7 +279,7 @@ In this task, you will clone the starter application, creating a local copy on y
 6. Now, change the directory to the cloned project by entering the following at the prompt:
 
     ```bash
-    cd MCW-OSS-PaaS-and-DevOps
+    cd MTC_GitHub_AzureDevOps
     ```
 
     ![The command to change the directory is displayed in the bash terminal window.](media/bash-cd-mcw-oss-paas-and-devops.png "bash terminal window")
@@ -290,9 +290,9 @@ In this task, you will clone the starter application, creating a local copy on y
     code .
     ```
 
-8. A new VS Code window will open, with the `MCW-OSS-PaaS-and-DevOps` folder opened.
+8. A new VS Code window will open, with the `MTC_GitHub_AzureDevOps` folder opened.
 
-    ![The MCW-OSS-PaaS-and-Devops folder is open in the Explorer pane in the Visual Studio Code window, and the Welcome pane is open on the right.](media/vscode-mcw-oss-paas-and-devops.png "Visual Studio Code window")
+    ![The MTC_GitHub_AzureDevOps folder is open in the Explorer pane in the Visual Studio Code window, and the Welcome pane is open on the right.](media/vscode-mcw-oss-paas-and-devops.png "Visual Studio Code window")
 
 9. You are now ready to begin working with the project in VS Code.
 
@@ -473,7 +473,7 @@ In this task, you will retrieve the connection string for your Azure Cosmos DB d
 
 ### Task 4: Import data to the API for MongoDB using mongoimport
 
-In this task, you will use `mongoimport.exe` to import data to your Cosmos DB account. There is a shell script located in the `MCW-OSS-PaaS-and-DevOps` project which handles exporting the data out of your MongoDB into JSON files on the local file system. These files will be used for the import into Cosmos DB.
+In this task, you will use `mongoimport.exe` to import data to your Cosmos DB account. There is a shell script located in the `MTC_GitHub_AzureDevOps` project which handles exporting the data out of your MongoDB into JSON files on the local file system. These files will be used for the import into Cosmos DB.
 
 1. On your Lab VM, open a new integrated bash prompt in VS Code by selecting the **+** next to the shell dropdown in the integrated terminal pane.
 
@@ -569,7 +569,7 @@ In this task, you will install the Azure Cosmos DB extension for VS Code to take
 
     ![Sign in to Azure is highlighted below AZURE COSMOS DB in the bottom left-hand corner of Visual Studio Code window.](media/vscode-azure-sign-in.png "Sign in to Azure")
 
-    > If you don't see the Azure icon, restart VS Code, and reopen the `MCW-OSS-PaaS-and-DevOps` project folder.
+    > If you don't see the Azure icon, restart VS Code, and reopen the `MTC_GitHub_AzureDevOps` project folder.
 
 3. Enter your Azure account credentials in the browser window that appears.
 
@@ -634,7 +634,7 @@ In this task, you will be creating a private Docker registry in the Azure portal
 
 The Docker extension for VS Code is used to simplify the management of local Docker images and commands, as well as the deployment of a built app image to Azure.
 
-1. On your Lab VM, return to VS Code, and the open `MCW-OSS-PaaS-and-DevOps` starter project.
+1. On your Lab VM, return to VS Code, and the open `MTC_GitHub_AzureDevOps` starter project.
 
 2. Select the **Extensions icon** from the left-hand menu, enter "docker" into the search box, select the **Docker** extension, and in the **Extension: Docker** window, and then select **Install**.
 
@@ -644,13 +644,13 @@ The Docker extension for VS Code is used to simplify the management of local Doc
 
     ![In the Docker VS Code extension, Registries and Azure are expanded, and the bestforyouregistry is highlighted.](media/vscode-extension-docker-registries.png "Docker extension")
 
-    > If you don't see the Docker icon in the left-hand menu, close and reopen VS Code, and the `MCW-OSS-PaaS-and-DevOps` project.
+    > If you don't see the Docker icon in the left-hand menu, close and reopen VS Code, and the `MTC_GitHub_AzureDevOps` project.
 
 ### Task 3: Create Docker image and run the app
 
-In this task, you will use VS Code, and the Docker extension, to add the necessary files to the project to create a custom Docker image for the `MCW-OSS-PaaS-and-DevOps` app.
+In this task, you will use VS Code, and the Docker extension, to add the necessary files to the project to create a custom Docker image for the `MTC_GitHub_AzureDevOps` app.
 
-1. On your Lab VM, return to VS Code, and the `MCW-OSS-PaaS-and-DevOps` project.
+1. On your Lab VM, return to VS Code, and the `MTC_GitHub_AzureDevOps` project.
 
 2. Open the VS Code Command Palette, by selecting **View** from the menu, then **Command Palette**.
 
@@ -670,7 +670,7 @@ In this task, you will use VS Code, and the Docker extension, to add the necessa
 
     ![Dockerfile and several configuration files are highlighted in the Explorer pane.](media/vscode-docker-files.png "Explorer pane")
 
-7. Select **Dockerfile** from the file navigator and observe the contents. This file provides the commands required to assemble a Docker image for the `MCW-OSS-PaaS-and-DevOps` application.
+7. Select **Dockerfile** from the file navigator and observe the contents. This file provides the commands required to assemble a Docker image for the `MTC_GitHub_AzureDevOps` application.
 
     ![This is a screenshot of the Dockerfile contents. At this time, we are unable to capture all of the information in the window. Future versions of this course should address this.](media/vscode-docker-file.png "Dockerfile screenshot")
 
@@ -827,14 +827,14 @@ In this task, you will navigate to the deployed app, and log in to verify it is 
 
     ![The URL for the App Service is highlighted on the Overview blade of App Service.](media/app-service-url.png "App Service blade")
 
-3. A new browser window or tab will open, and you should see the `MCW-OSS-PaaS-and-DevOps` application's home page displayed.
+3. A new browser window or tab will open, and you should see the `MTC_GitHub_AzureDevOps` application's home page displayed.
 
 4. Select **Sign In** on the top right of the page and login with the following credentials to verify everything is working as expected:
 
     - **Email address**: <demouser@bfyo.com>
     - **Password**: Password.1!!
 
-    ![Two Person Plan, Four Person Plan, and High-Pro Plan boxes are visible in this screenshot of the MCW-OSS-PaaS-and-DevOps home page.](media/bfyo-web-login.png "Sign in to the MCW-OSS-PaaS-and-DevOps home page")
+    ![Two Person Plan, Four Person Plan, and High-Pro Plan boxes are visible in this screenshot of the MTC_GitHub_AzureDevOps home page.](media/bfyo-web-login.png "Sign in to the MTC_GitHub_AzureDevOps home page")
 
 ## Exercise 5: Configure CI/CD pipeline
 
@@ -858,7 +858,7 @@ In this task, you will be adding a Jenkins service integration into your GitHub 
 
     ![DNS name and its value are highlighted on the Overview blade.](media/jenkins-vm-dns-name.png "Overview blade")
 
-4. Return to your forked `MCW-OSS-PaaS-and-DevOps` application page in GitHub, select **Settings**, then select **Webhooks** from the left-hand menu, and then select **Add Webhook**.
+4. Return to your forked `MTC_GitHub_AzureDevOps` application page in GitHub, select **Settings**, then select **Webhooks** from the left-hand menu, and then select **Add Webhook**.
   
    ![Webhooks is highlighted on the left-hand menu, and Add webhook is highlighted at the top.](media/github-settings-webhooks.png "Select Webhooks")
 
@@ -1041,7 +1041,7 @@ In this task, you will create an SSH tunnel to the Jenkins server, and configure
 
 ### Task 3: Configure Continuous Integration with Jenkins
 
-In this task, you will set up a simple Jenkins continuous integration (CI) pipeline, which will build the `MCW-OSS-PaaS-and-DevOps` application with every code commit into GitHub.
+In this task, you will set up a simple Jenkins continuous integration (CI) pipeline, which will build the `MTC_GitHub_AzureDevOps` application with every code commit into GitHub.
 
 1. Return to the **Jenkins** dashboard, and select **New Item** from the left-hand menu.
 
@@ -1051,7 +1051,7 @@ In this task, you will set up a simple Jenkins continuous integration (CI) pipel
 
 3. On the **General** tab of the project page:
 
-    - Select **GitHub project**, and enter the URL for your forked copy of the `MCW-OSS-PaaS-and-DevOps` project page in your GitHub account.
+    - Select **GitHub project**, and enter the URL for your forked copy of the `MTC_GitHub_AzureDevOps` project page in your GitHub account.
     - Uncheck **Restrict where this project can be run**, if it is checked.
 
     ![On the General tab of the project page, GitHub project is selected and the URL for your forked copy of the best-for-you-organics project page in your GitHub account is entered.](media/jenkins-project-general.png "Project page General tab")
@@ -1092,7 +1092,7 @@ In this task, you will set up a simple Jenkins continuous integration (CI) pipel
 
 In this task you will commit your pending changes in VS Code to you GitHub repo, and trigger the Jenkins CI build job.
 
-1. Return to VS Code on your Lab VM, and the open `MCW-OSS-PaaS-and-DevOps` project.
+1. Return to VS Code on your Lab VM, and the open `MTC_GitHub_AzureDevOps` project.
 
 2. Observe that the **source control icon** on the left-hand navigation bar has a badge indicating you have uncommitted changes. Select the **icon**.
 
@@ -1342,7 +1342,7 @@ In this task, you will use the [Azure App Service Jenkins plugin](https://plugin
 
 ### Task 8: Trigger CI-CD pipeline
 
-In this task, you will commit changes to the `MCW-OSS-PaaS-and-DevOps` starter application and trigger the full CI/CD pipeline through Jenkins, resulting in the updated application being added to a new Docker image, pushed to ACR, and deployed to Web App for Containers.
+In this task, you will commit changes to the `MTC_GitHub_AzureDevOps` starter application and trigger the full CI/CD pipeline through Jenkins, resulting in the updated application being added to a new Docker image, pushed to ACR, and deployed to Web App for Containers.
 
 1. Return to VS Code on your Lab VM, open the `.dockerignore` file, and delete the line containing __DockerFile*__ from the file. This will allow Jenkins to use the file to build the container in the Jenkins CI/CD pipeline.
 
